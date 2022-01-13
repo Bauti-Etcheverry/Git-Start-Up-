@@ -1,0 +1,86 @@
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+   }
+#hello-html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#header-harvard-logo{
+    width: 150px;
+}
+#universities-table {
+    border-collapse: collapse;
+    border:3px solid grey;
+    margin-bottom: 20px;
+}
+#universities-table td{
+    border:3px solid grey;
+    text-align: center;
+}
+#universities-table th{
+    border:4px solid black;
+    text-align: left;
+}
+#login-form{
+    border-style: inset;
+    border-color: burlywood;
+    width: 550px;
+}
+
+#login-form>input::placeholder{
+    color: black;
+}
+input[name='user-password']{
+    background: lightblue;
+}
+input[name='user-username']{
+    background: lightcoral;
+}
+input[name='user-login-submit']{
+    background: gold;
+}
+
+.header-menu-button:hover{
+    background-color: brown;
+}
+#header-menu{
+    list-style-type: none;
+    margin-left: 90%;
+    margin-top: 0%;
+    width: 100px;
+    padding-left: 10px;
+}
+@media (min-width: 600px){
+    body {
+        background-color: burlywood;
+    }
+}
+@media (max-width:599px){
+    body{
+        background-color: darkseagreen;
+    }
+}
+
+#grid{
+    background-color: rgb(151, 187, 97);
+    display: grid;
+    padding: 5px;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto;
+    width: auto;
+}
+.grid-item{
+    background-color: wheat;
+    font-size: 15px;
+    text-align: center;
+}
+.container{
+    border: 2px brown solid;
+    text-align: center;
+    margin-top: 10px;
+}
+.col{
+    border: 2px brown solid;
+}

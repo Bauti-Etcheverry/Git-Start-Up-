@@ -1,0 +1,18 @@
+$backred: red;
+%red-background{
+    background-color: red;
+}
+#header-h1{
+    @extend %red-background
+}
+#universities-table{
+    
+    
+    thead{
+
+    }
+    
+    tr{
+
+    }
+}

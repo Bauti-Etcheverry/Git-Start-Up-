@@ -1,0 +1,18 @@
+It allows us to kkeo track of changes to the code.
+It's useful to keep synchronized code between different people(coworkers).
+
+
+
+We upload oner version of the code online on a repository. This allows to all the coworkers to access 
+to that code and if any make of them makes changes to the code, it is uploaded and the repository keeps the latest
+and most updeated version of the code.
+
+
+
+Git also allows us to test changes code without loosing the original.
+Git also give us the opportunity to revert back to old versions of the code.
+
+GitHub is website that stores lost of git repositories:
+
+GIT COMMANDS:
+git clone [URL]
