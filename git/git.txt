@@ -15,4 +15,8 @@ Git also give us the opportunity to revert back to old versions of the code.
 GitHub is website that stores lost of git repositories:
 
 GIT COMMANDS:
+git init
 git clone [URL]
+git add [file/repository]
+git commit -m "message"
+git commit -ma "messgae" [it commmits al the files that had been changed in your local repository]
